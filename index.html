@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="vivify.min.css">
   <title>Project | FLUX</title>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -13,18 +13,30 @@
     <div class="channel-carousel"  tabIndex="-1">
         <img class="logo" src="/Branding/large logo.png">
      
-        <a href="#viewer-container"><button autofocus onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/ae'"><img class="channel-logo" src="/ChannelLogos/ae.svg" tabIndex = "-1"></button></a>
-        <a href="#viewer-container"><button onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/espn'"><img class="channel-logo" src="/ChannelLogos/espn.svg" tabIndex = "-1"></button></a>
-        <a href="#viewer-container"><button onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/disney'"><img class="channel-logo" src="/ChannelLogos/disney.svg" tabIndex = "-1"></button></a>
+        <a href="#spaner"><button autofocus onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/ae'"><img class="channel-logo" src="/ChannelLogos/ae.svg" tabIndex = "-1"></button></a>
+        <a href="#spaner"><button onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/espn'"><img class="channel-logo" src="/ChannelLogos/espn.svg" tabIndex = "-1"></button></a>
+        <a href="#spaner"><button onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/disney'"><img class="channel-logo" src="/ChannelLogos/disney.svg" tabIndex = "-1"></button></a>
         <a href="#viewer-container"><button onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/bravo'"><img class="channel-logo" src="/ChannelLogos/bravo.svg" tabIndex = "-1"></button></a>
         <a href="#viewer-container"><button onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/cn'"><img class="channel-logo" src="/ChannelLogos/Cartoon Network.svg" tabIndex = "-1"></button></a>
         <a href="#viewer-container"><button onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/disneyxd'"><img class="channel-logo" src="/ChannelLogos/disneyxd.svg" tabIndex = "-1"></button></a>
      
     </div>
-    <div id="viewer-container" class="scroll-container">
+
+<div id="spaner"></div>    <div id="viewer-container" class="scroll-container">
         <button><iframe id="viewer" src="https://projectflux.netlify.com/ae" tabIndex="-1"></iframe i></button>
      
-    </div>
+    </div></div>>
+
+    <script>
+        $(window).scroll(function () {
+          var scroll = $(window).scrollTop();
+          if (scroll > 5) {
+            $("#viewer-container").addClass("on");
+          } else {
+            $("#viewer-container").removeClass("on");
+          }
+        });
+      </script>
 </body>
 
 
