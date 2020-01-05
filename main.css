@@ -1,5 +1,5 @@
-.scroll-container {overflow: scroll; white-space: nowrap; position: fixed; width: 100%; height: 100vh;}
 
-.scroll-container > button {width: 100%; height: 500px;display:inline-block;background-color: red;}
+
+.scroll-container > button {width: 100%; height: 500px;display:inline-block;background-color: red;float: left;}
 
 button:focus {border: solid 10px black;}
