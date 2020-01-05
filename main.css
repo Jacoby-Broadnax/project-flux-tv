@@ -1,6 +1,6 @@
 body {margin: 0px;padding: 0px;;}
 
-.scroll-container > button {width: 100%; height: 100vh;border: none;;}
+.scroll-container > button {width: 100%; height: 100vh;border: none;padding: 0px;}
 
 .scroll-container {margin-top: }
 
