@@ -24,7 +24,7 @@
             <img class="logo" src="/Branding/large logo.png">
         {{#each this}}
    
-        <a href="#viewer-container"><button autofocus onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/{{location}}'"><img class="channel-logo" src="/ChannelLogos/{{logo}}" tabIndex = "-1"></button></a>
+        <a href="#viewer-container"><button id="button"  autofocus onfocus="document.getElementById('viewer').src = 'https://projectflux.netlify.com/{{location}}'"><img class="channel-logo" src="/ChannelLogos/{{logo}}" tabIndex = "-1"></button></a>
      
           {{/each}}
          </div> 

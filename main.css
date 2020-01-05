@@ -15,7 +15,7 @@ body {margin: 0px;padding: 0px;background-color: white;}
     display: none;
 }
 
-.logo {width: 500px;padding-top: 40px;object-fit: contain;left: 0px;margin-top: -7px;margin-left: -30px;z-index: 10;margin-right: -50px;}
+.logo {width: 500px;padding-top: 40px;object-fit: contain;left: 0px;margin-top: -7px;margin-left: 0px;z-index: 10;margin-right: -50px;}
 
 .channel-carousel > a > button {width: 400px;height: 200px;font-size: 40px;margin-top: 10px;margin-left: 10px;background-color: white;border: solid 2px lightgray;;border-radius: 10px;}
 
@@ -23,7 +23,7 @@ body {margin: 0px;padding: 0px;background-color: white;}
 
 .begin {width: 220px; height: 10px; background-color: green;display: inline-block;}
 
-button > iframe {width: 100%; height: 110%;border: none;background-image: url(/error.png);}
+button > iframe {width: 100%; height: 110%;border: none;background-image: url(/error.png);background-size: cover;background-repeat: no-repeat;}
 
 .channel-carousel > a > button:focus {border: solid 8px black;}
 
