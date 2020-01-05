@@ -7,6 +7,7 @@
   <title>Project | FLUX</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
   <link rel="manifest" href="manifest.json">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
     
@@ -21,11 +22,21 @@
         <a href="#viewer-container"><button onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/disneyxd'"><img class="channel-logo" src="/ChannelLogos/disneyxd.svg" tabIndex = "-1"></button></a>
      
     </div>
-    <div id="spreader"></div>
+    <button id="spreader"></button>
     <div id="viewer-container" class="scroll-container">
         <button><iframe id="viewer" src="https://projectflux.netlify.com/ae" tabIndex="-1"></iframe i></button>
      
     </div>
+    <script>
+        $(window).scroll(function () {
+          var scroll = $(window).scrollTop();
+          if (scroll > 0) {
+            $("#viewer-container").addClass("on");
+          } else {
+            $("#viewer-containerr").removeClass("on");
+          }
+        });
+      </script>
 </body>
 
 
