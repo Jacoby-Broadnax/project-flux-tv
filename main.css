@@ -4,6 +4,8 @@ body {margin: 0px;padding: 0px;background-color: white;}
 
     #viewer-container{position: fixed;width: 100%;;}
 
+    #viewer-container:focus {position: fixed; top: 0px;;}
+
 .scroll-container {margin-top: }
 
 .channel-carousel{width: 100%; height: 220px;background-color:white;white-space: nowrap;}
