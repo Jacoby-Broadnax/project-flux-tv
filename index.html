@@ -10,9 +10,9 @@
 </head>
 <body>
     <div class="channel-carousel"  tabIndex="-1">
-        <button>ABC</button>
-        <button>CBS</button>
-        <button>FOX</button>
+        <a href="#viewer"><button onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/abc'">ABC</button></a>
+        <button onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/cbs'">CBS</button>
+        <button onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/fox'">FOX</button>
         <button>NBC</button>
         <button>TEST</button>
         <button>TEST</button>
@@ -20,7 +20,7 @@
         <button>TEST</button>
     </div>
     <div class="scroll-container">
-        <button><iframe src="https://projectflux.netlify.com/abc" tabIndex="-1"></iframe></button>
+        <button><iframe id="viewer" src="https://projectflux.netlify.com/abc" tabIndex="-1"></iframe i></button>
      
     </div>
 </body>
