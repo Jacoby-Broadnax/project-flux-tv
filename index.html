@@ -24,7 +24,7 @@
             <img class="logo" src="/Branding/large logo.png">
         {{#each this}}
    
-        <a href="#viewer-container"><button id="button"  autofocus onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/{{location}}'"><img class="channel-logo" src="/ChannelLogos/{{logo}}" tabIndex = "-1"></button></a>
+        <a href="#viewer-container"><button id="button"  autofocus onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/{{viewer}}'"><img class="channel-logo" src="/ChannelLogos/{{logo}}" tabIndex = "-1"></button></a>
      
           {{/each}}
          </div> 
@@ -32,7 +32,9 @@
 </head>
 <body>
     
-
+<div class="popup">
+  <iframe src="https://streamingtvguides.com/Channel/AETV"></iframe>
+</div>
     <div id="items1"></div>
     
     <div id="viewer-container" class="scroll-container">
