@@ -19,7 +19,11 @@ body {margin: 0px;padding: 0px;background-color: white;}
 
 .channel-carousel > a > button {width: 400px;height: 200px;font-size: 40px;margin-top: 10px;margin-left: 10px;background-color: white;border: solid 2px lightgray;;border-radius: 10px;}
 
+.popup {position: fixed;top: 255px;overflow: scroll;background-color: white;white-space: nowrap;padding-left: 150px;}
 
+.popup > div {height: 150px;;}
+
+.popup > div > iframe {height: 1000px;margin-top: -530px;filter: invert() brightness(2) ;border: none;;}
 
 .begin {width: 220px; height: 10px; background-color: green;display: inline-block;}
 

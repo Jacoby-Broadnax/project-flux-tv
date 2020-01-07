@@ -24,7 +24,7 @@
             <img class="logo" src="/Branding/large logo.png">
         {{#each this}}
    
-        <a href="#viewer-container"><button id="button"  autofocus onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/{{viewer}}'"><img class="channel-logo" src="/ChannelLogos/{{logo}}" tabIndex = "-1"></button></a>
+        <a href="#viewer-container"><button id="button" onfocus="document.getElementById('guide').src = '{{channelUrl}}'"  onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/{{viewer}}'"><img class="channel-logo" src="/ChannelLogos/{{logo}}" tabIndex = "-1"></button></a>
      
           {{/each}}
          </div> 
@@ -32,7 +32,11 @@
 </head>
 <body>
     
-
+<div class="popup" id="active">
+  <div>
+  <iframe class="guide" id="guide" src=""></iframe>
+</div>
+</div>
     <div id="items1"></div>
     
     <div id="viewer-container" class="scroll-container">
@@ -43,9 +47,9 @@
         $(window).scroll(function () {
           var scroll = $(window).scrollTop();
           if (scroll > 0) {
-            $("#viewer-container").addClass("on");
+            $("#active").addClass("on");
           } else {
-            $("#viewer-containerr").removeClass("on");
+            $("#active").removeClass("on");
           }
         });
       </script>
