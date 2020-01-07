@@ -19,7 +19,7 @@ body {margin: 0px;padding: 0px;background-color: white;}
 
 .channel-carousel > a > button {width: 400px;height: 200px;font-size: 40px;margin-top: 10px;margin-left: 10px;background-color: white;border: solid 2px lightgray;;border-radius: 10px;}
 
-.popup {position: fixed;top: -10px;overflow: scroll;background-color: white;white-space: nowrap;padding-left: 150px;width: 100%;z-index: -5;}
+.popup {position: fixed;top: -10px;overflow: scroll;background-color: white;white-space: nowrap;padding-left: 0;width: 100%;z-index: -5;}
 
 .popup > div {height: 320px;;}
 
