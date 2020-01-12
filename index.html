@@ -21,7 +21,7 @@
     
       <script id="item-template" type="text/x-handlebars-template">
         <div class="channel-carousel"  tabIndex="-1">
-            <img class="logo" src="/Branding/large logo.png">
+            <img class="logo" src="/Branding/largelogo.png">
         {{#each this}}
    
         <a href="#viewer-container"><button id="button" onfocus="document.getElementById('guide').src = '{{channelUrl}}'"  onclick="document.getElementById('viewer').src = 'https://projectflux.netlify.com/{{viewer}}'"><img class="channel-logo" src="/ChannelLogos/{{logo}}" tabIndex = "-1"></button></a>
@@ -33,11 +33,7 @@
 <body>
     
 <div class="popup" id="active" tabIndex = "-1">
-  <div>
-  <iframe tabIndex = "-1" class="guide" id="guide" src=""></iframe>
-  <div class="thin-bar"></div>
-</div>
-
+ 
 </div>
     <div id="items1"></div>
     
