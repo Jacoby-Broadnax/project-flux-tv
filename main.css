@@ -31,7 +31,7 @@ body {margin: 0px;padding: 0px;background-color: white;}
 
 #active {transition: 0.4s ease; }
 
-#active.on {height: 0px;}
+#active.on {height: 50px;}
 
 .popup > div > iframe {height: 320px;margin-top: 0;border: none;width: 110%;margin-left: 10px;background-image: url(https://i.pinimg.com/originals/9a/3b/8f/9a3b8fa2ac8ebde3eec2079d8afd9ddc.gif);background-repeat: no-repeat;background-size: cover;}
 
