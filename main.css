@@ -35,7 +35,7 @@ body {margin: 0px;padding: 0px;background-color: white;}
 
 .begin {width: 220px; height: 10px; background-color: green;display: inline-block;}
 
-button > iframe {width: 100%; height: 110%;border: none;background-image: url(/error.png);background-size: cover;background-repeat: no-repeat}
+button > iframe {width: 100%; height: 105%;border: none;background-image: url(/error.png);background-size: cover;background-repeat: no-repeat}
 
 .channel-carousel > a > button:focus {border: solid 8px black;}
 
