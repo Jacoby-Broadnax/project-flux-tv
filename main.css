@@ -17,7 +17,7 @@ body {margin: 0px;padding: 0px;background-color: white;}
 
 .logo {width: 500px;padding-top: 40px;object-fit: contain;left: 0px;margin-top: -7px;margin-left: 0px;z-index: 10;margin-right: -50px;}
 
-.channel-carousel > a > button {width: 22%;height: 200px;font-size: 40px;margin-top: 20px;margin-left: 20px;background-color: transparent;border: solid 2px lightgray;;border-radius: 10px;transition: 0.2s ease;;}
+.channel-carousel > a > button {width: 22%;height: 200px;font-size: 40px;margin-top: 20px;margin-left: 20px;background-color: transparent;border: solid 2px lightgray;;border-radius: 10px;;}
 
 .popup {background-color: white;white-space: nowrap;padding-left: 0;width: 100%;z-index: -5;}
 
